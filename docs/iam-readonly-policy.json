@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ReadAccountInventory",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeRegions",
+        "ec2:DescribeInstances",
+        "ec2:DescribeVolumes",
+        "rds:DescribeDBInstances",
+        "elasticloadbalancing:DescribeLoadBalancers",
+        "s3:ListAllMyBuckets"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "ReadTagsAndBucketConfiguration",
+      "Effect": "Allow",
+      "Action": [
+        "rds:ListTagsForResource",
+        "elasticloadbalancing:DescribeTags",
+        "s3:GetBucketLocation",
+        "s3:GetBucketTagging",
+        "s3:GetLifecycleConfiguration"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

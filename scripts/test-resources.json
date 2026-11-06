@@ -1,0 +1,16 @@
+﻿{
+    "EBSVolumes":  [
+                       "vol-048747310bcb57678",
+                       "vol-0188c7acb8729bf5f"
+                   ],
+    "Region":  "ap-southeast-2",
+    "RDSInstance":  "cost-detective-db-test",
+    "EC2Instances":  [
+                         "i-01c295bd1a1ade3c7",
+                         "i-053dc6f368827d89d"
+                     ],
+    "S3Buckets":  [
+                      "cost-detective-no-lc-275571",
+                      "cost-detective-with-lc-275571"
+                  ]
+}
